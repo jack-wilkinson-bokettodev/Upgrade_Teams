@@ -5,18 +5,18 @@ Set of scripts to be used with GPO to upgrade from Microsoft Teams (Legacy)
 - Uninstalls Teams (Legacy) Machine-Wide installer
 - De-Provisions Teams (Home) AppX if applicable
 - Provisions Teams (New) plus depencies
- - Microsoft.UI.Xaml (Latest)
- - Microsoft.VCLibs (14.00)
- - Desktop App Installer (WinGet, Latest)
+  - Microsoft.UI.Xaml (Latest)
+  - Microsoft.VCLibs (14.00)
+  - Desktop App Installer (WinGet, Latest)
 - Installs Edge WebView2
 
 ## User.ps1
 - Uninstalls Teams (Home)
 - Uninstalls Teams (Legacy)
 - Installs Teams (New) plus dependencies
- - Microsoft.UI.Xaml (Latest)
- - Microsoft.VCLibs (14.00)
- - Desktop App Installer (WinGet, Latest)
+  - Microsoft.UI.Xaml (Latest)
+  - Microsoft.VCLibs (14.00)
+  - Desktop App Installer (WinGet, Latest)
 
 
 If it is not obvious, `Machine.ps1` needs to run in the Machine Scope (Administrator perms or above), and `User.ps1` needs to be running as the end-user (No admin rights required)
